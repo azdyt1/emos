@@ -2,15 +2,20 @@
 
 ## Introduction
 In  this  work, we aim to improve the recommendation diversity in the ranking stage, and propose a 
-Diversity-aware Deep Ranking Network by carefully designing three diversity-aware components
-that are diversified information enhancement, personalized negative sampling and 
-balanced weighting of interaction category.
+Diversity-aware Deep Ranking Network. DDRN is featured with three diversity-aware designs: 
 
-## DDRN
+- **Diversified Information Enhancement.** The Diversified Information Enhancement design brings the information of diversity-optimized item set 
+from the matching stage, which makes up for the insufficient diversity of user interaction history.
 
-The DDRN.py is the core code of our proposed model DDRN, it shows shows how our model is structured.
+- **Personalized Negative Sampling.** The Personalized Negative Sampling design adopts different negative sampling distributions 
+to users on the basis of different diversity preference, distinguishing user's specific preference among similar items. 
 
+- **Balanced Weighting of Interaction Category.** The Balanced Weighting of Interaction Category design eliminate bias between 
+user interaction categories by a balanced weighting loss.
 
-## Statement:
+## Code
+The DDRN.py is the core code of our proposed model DDRN, it shows the architecture of our model.
+
+## Statement
 According to the rules of our industrial partner, the external disclosure process of our code is very strict. 
 The complete code and industrial data will be released after internal review.
