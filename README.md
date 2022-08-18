@@ -11,7 +11,7 @@ from the matching stage, which makes up for the insufficient diversity of user i
 to users on the basis of different diversity preference, distinguishing user's specific preference among similar items. 
 
 - **Balanced Weighting of Interaction Category.** The Balanced Weighting of Interaction Category design eliminate bias between 
-user interaction categories by a balanced weighting loss.
+user interaction categories by a balanced weighting loss which balance the gradients between user interaction categories.
 
 ## Code
 The DDRN.py is the core code of our proposed model DDRN, it shows the architecture of our model.
